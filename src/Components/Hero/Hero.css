@@ -1,0 +1,39 @@
+.hero{
+    margin-bottom: 100px;
+}
+.videoBg{
+    width: 100%;
+    height: auto;
+    /* object-fit: contain; */
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 55%;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+}
+
+.text1{
+    margin-right: 20%;
+    font-weight: 200;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.text2{
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: white;
+}
+.text3{
+    margin-left: 20%;
+    font-weight: 300;
+    font-size: 3.75rem;
+    color: white;
+}

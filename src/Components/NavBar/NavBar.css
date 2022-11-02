@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    Justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: #3751FE;
+    transition: 300ms;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 22%;
+    justify-content: space-around;
+}
+
+
+.logoDisplay{
+    display: flex;
+    flex-direction: row;
+}
+
+.normanHeader {
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+}
+
+.silvaHeader{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}

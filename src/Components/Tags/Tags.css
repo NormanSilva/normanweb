@@ -1,0 +1,9 @@
+.tags{
+    display: flex;
+    justify-content: left;
+    color: #787878;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding-left: 5%;
+}
