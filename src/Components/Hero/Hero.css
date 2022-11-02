@@ -3,15 +3,17 @@
 }
 .videoBg{
     width: 100%;
-    height: auto;
-    /* object-fit: contain; */
+    height: 1080;
+    top: 0;
+    left: 0;
+    height: 900px;
 }
 
 .contenido{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 55%;
+    top: 50%;
     align-content: center;
     align-items: center;
     flex-wrap: nowrap;
