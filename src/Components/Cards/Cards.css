@@ -1,7 +1,43 @@
+.displayContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    gap: 10px;
+
+    background: #0F0F0F;
+    border-radius: 12px;
+    width: 18%;
+    height: auto;
+    margin: 1%;
+}
+
+
+
+
 .cardsIcon{
     color: white;
 }
 
 .cardsTitle{
     color: white;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.cardsDescription{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAAAA;
+
 }

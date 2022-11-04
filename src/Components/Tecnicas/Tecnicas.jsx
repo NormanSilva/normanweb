@@ -16,15 +16,16 @@ const Tecnicas = () => {
         <p className='title'>Me describo como un diseñador con alta disciplina y disfruto trabajando en equipo o de forma independiente.</p>
       </div>
 
-      <div> 
-        {TenicasHabilidades.map((tecnica) => {
-          return(
-            <Cards key={tecnica.title} icon={tecnica.icon} title={tecnica.title} description={tecnica.description}/>
-          )
-        }) }
-      </div>
+       
+      {TenicasHabilidades.map((tecnica) => {
+        return(
+          <Cards key={tecnica.title} icon={tecnica.icon} title={tecnica.title} description={tecnica.description}/>
+        )
+      })}
 
     </div>
+
+    
     
   )
 }
