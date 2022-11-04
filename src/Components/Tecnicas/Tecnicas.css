@@ -1,0 +1,13 @@
+.titleSection{
+    display: flex;
+    justify-content: center;  
+}
+
+.title{
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    width: 50%;
+    color: white;
+}
